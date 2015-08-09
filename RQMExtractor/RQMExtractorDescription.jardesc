@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
 <jardesc>
-    <jar path="C:/PRJ/RQM Extractor/RQMExtractor.jar"/>
+    <jar path="C:/PRJ/RQM Extractor/jar/RQMExtractor.jar"/>
     <options buildIfNeeded="true" compress="true" descriptionLocation="/RQMExtractor/RQMExtractorDescription.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
     <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
     <selectedProjects/>
-    <manifest generateManifest="true" mainClassHandleIdentifier="=RQMExtractor/src&lt;rqmextractor.vanlint5.nl{RQMExtractor.java[RQMExtractor" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+    <manifest generateManifest="true" mainClassHandleIdentifier="=RQMExtractor/src&lt;com.ibm.rqm.examples.extractor{RQMExtractor.java[RQMExtractor" manifestLocation="/RQMExtractor/manifest" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
         <sealing sealJar="false">
             <packagesToSeal/>
             <packagesToUnSeal/>
@@ -12,9 +12,8 @@
     </manifest>
     <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
         <file path="/RQMExtractor/.project"/>
-        <javaElement handleIdentifier="=RQMExtractor/Classes"/>
-        <file path="/RQMExtractor/manifest"/>
         <file path="/RQMExtractor/config.properties"/>
+        <file path="/RQMExtractor/manifest"/>
         <file path="/RQMExtractor/.classpath"/>
         <javaElement handleIdentifier="=RQMExtractor/src"/>
     </selectedElements>

@@ -18,12 +18,8 @@ import org.apache.commons.httpclient.HttpStatus;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.commons.logging.impl.Jdk14Logger;
-import org.jdom.JDOMException;
 
-import com.ibm.rqm.ct.artifacts.ArtifactFactory;
 import com.ibm.rqm.ct.artifacts.ArtifactFactory.ArtifactType;
-import com.ibm.rqm.ct.artifacts.ArtifactProcessor;
-import com.ibm.rqm.ct.artifacts.IArtifactHandler;
 import com.ibm.rqm.ct.client.IRQMRestClient;
 import com.ibm.rqm.ct.client.RQMRestClientFactory;
 import com.ibm.rqm.ct.client.RestException;

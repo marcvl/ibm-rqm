@@ -1,0 +1,6 @@
+Feature: Calculator
+ Scenario: Initial Check Calculator
+    Given I enter first argument 5
+      And I enter second argument 2
+     When I select to "summarize"
+     Then results should be 7
